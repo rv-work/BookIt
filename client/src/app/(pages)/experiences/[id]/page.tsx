@@ -40,7 +40,7 @@ export default function ExperienceDetails() {
 
   const fetchExperience = async (id: string) => {
     try {
-      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/experiences/${id}`)
+      const response = await fetch(`https://bookit-0k8g.onrender.com/api/experiences/${id}`)
       const data = await response.json()
       setExperience(data)
 

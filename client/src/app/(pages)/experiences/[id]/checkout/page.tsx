@@ -140,7 +140,7 @@ export default function CheckoutPage() {
 
     setPromoError('')
     try {
-      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/promo/validate`, {
+      const response = await fetch(`https://bookit-0k8g.onrender.com/api/promo/validate`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -206,7 +206,7 @@ export default function CheckoutPage() {
         finalTotal: formData.total
       }
 
-      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/bookings`, {
+      const response = await fetch(`https://bookit-0k8g.onrender.com/api/bookings`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

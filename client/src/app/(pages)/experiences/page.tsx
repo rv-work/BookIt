@@ -35,7 +35,7 @@ export default function ExperiencesPage() {
 
   const fetchExperiences = async () => {
     try {
-      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/experiences`)
+      const response = await fetch(`https://bookit-0k8g.onrender.com/api/experiences`)
       const data = await response.json()
       setExperiences(data)
       setFilteredExperiences(data)
