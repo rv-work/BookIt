@@ -108,7 +108,7 @@ export default function ExperienceDetails() {
   if (loading) {
     return (
       <div className="min-h-screen pt-20 bg-gray-50">
-        <main className="max-w-6xl mx-auto px-4 py-6">
+        <main className="max-w-7xl mx-auto px-4 py-6">
 
           <div className="flex items-center mb-6">
             <div className="w-4 h-4 bg-gray-300 rounded mr-2 animate-pulse"></div>
@@ -216,7 +216,7 @@ export default function ExperienceDetails() {
   if (!experience) {
     return (
       <div className="min-h-screen pt-20 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-4 py-8 text-center">
+        <div className="max-w-7xl mx-auto px-4 py-8 text-center">
           <h1 className="text-2xl font-bold text-gray-800 mb-4">Experience Not Found</h1>
           <button
             onClick={() => router.push('/')}
@@ -237,7 +237,7 @@ export default function ExperienceDetails() {
 
   return (
     <div className="min-h-screen pt-20 bg-gray-50">
-      <main className="max-w-6xl mx-auto px-4 py-6">
+      <main className="max-w-7xl mx-auto px-4 py-6">
         <button
           onClick={() => router.back()}
           className="flex items-center text-black mb-6 text-sm hover:text-gray-600"
