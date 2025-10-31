@@ -1,7 +1,7 @@
 // components/Navbar.tsx
 'use client'
 import Image from 'next/image'
-import { useSearch } from '../layout'
+import { useSearch } from '../context/SearchContext'
 import { useState } from 'react'
 
 export default function Navbar() {

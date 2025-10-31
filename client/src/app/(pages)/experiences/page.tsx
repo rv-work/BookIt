@@ -2,7 +2,7 @@
 'use client'
 import ExperienceCard from '@/app/components/ExperienceCard'
 import { useState, useEffect } from 'react'
-import { useSearch } from '../../layout'
+import { useSearch } from '../../context/SearchContext'
 
 interface Experience {
   _id: string
