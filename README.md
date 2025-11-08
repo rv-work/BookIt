@@ -20,12 +20,12 @@ A full-stack travel experience booking system where users can explore curated ad
 
 ## 🧩 Tech Stack
 
-| Layer          | Technology                            |
-| -------------- | ------------------------------------- |
-| Frontend       | Next.js + TypeScript + TailwindCSS    |
-| Backend        | Node.js + Express + TypeScript        |
-| Database       | MongoDB (Mongoose ORM)                |
-| Build & Deploy | Vercel (Frontend) + Local Node Server |
+| Layer          | Technology                           |
+| -------------- | ------------------------------------ |
+| Frontend       | Next.js + TypeScript + TailwindCSS   |
+| Backend        | Node.js + Express + TypeScript       |
+| Database       | MongoDB (Mongoose ORM)               |
+| Build & Deploy | Vercel (Frontend) + Render (Backend) |
 
 ---
 
